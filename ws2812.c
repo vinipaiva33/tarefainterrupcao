@@ -11,8 +11,8 @@ static volatile uint a = 0;
 
 
 // Variável global para armazenar a cor (Entre 0 e 255 para intensidade)
-uint8_t led_r = 200; // Intensidade do vermelho
-uint8_t led_g = 0; // Intensidade do verde
+uint8_t led_r = 100; // Intensidade do vermelho
+uint8_t led_g = 100; // Intensidade do verde
 uint8_t led_b = 0; // Intensidade do azul
 
 
@@ -69,7 +69,7 @@ void gpio_irq_handler(uint gpio, uint32_t events)
 
 int main()
 {
-    
+    pio();
     stdio_init_all();
     pinosInit();
 
@@ -80,9 +80,9 @@ int main()
 //Led repetitivo
     while (true)
     {
-        set_one_led(led_r, led_g, led_b,numero);
+        gpio_put(PIN_LED_R,1);
         sleep_ms(tempo);
-        set_one_led(0, 0, 0,numero);
+        gpio_put(PIN_LED_R,0);
         sleep_ms(tempo);
     }
     return 0;
