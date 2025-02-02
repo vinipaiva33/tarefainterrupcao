@@ -1,7 +1,3 @@
-Segue abaixo uma sugestão de arquivo README.md que explica o projeto, descrevendo seu funcionamento, os componentes utilizados e os passos para compilar, simular e testar o sistema na Placa de Desenvolvimento BitDogLab. Sinta-se à vontade para ajustar ou complementar conforme necessário.
-
----
-
 # Projeto: Controle de Animações em Matriz de LEDs via Interrupções no Raspberry Pi Pico W
 
 ## Descrição Geral
