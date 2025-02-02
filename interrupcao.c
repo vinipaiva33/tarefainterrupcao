@@ -47,7 +47,7 @@ void gpio_irq_handler(uint gpio, uint32_t events)
             }
             else
             {
-                printf("Sim\n");
+                printf("No limite, aperte B\n");
             }
         }
     }
@@ -65,7 +65,7 @@ void gpio_irq_handler(uint gpio, uint32_t events)
                 set_one_led(led_r, led_g, led_b, numero);
             }
             else{
-                printf("Nao\n");
+                printf("No minimo, aperte A\n");
             }
         }
 
