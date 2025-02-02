@@ -1,11 +1,16 @@
+
+//Inclusão de bibliotecas
 #include <stdio.h>
 #include <stdlib.h>
 #include "pico/stdlib.h"
 #include "hardware/pio.h"
 #include "hardware/clocks.h"
+
+//Bibliotecas criadas
 #include "inicia.h"
 #include "iniciapino.h"
 
+//Iniciando variáveis do
 int numero = 0;
 static volatile uint a = 0;
 
