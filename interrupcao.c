@@ -16,8 +16,8 @@ static volatile uint a = 0;
 
 
 // Variável global para armazenar a cor (Entre 0 e 255 para intensidade)
-uint8_t led_r = 100; // Intensidade do vermelho
-uint8_t led_g = 100; // Intensidade do verde
+uint8_t led_r = 10; // Intensidade do vermelho
+uint8_t led_g = 10; // Intensidade do verde
 uint8_t led_b = 0; // Intensidade do azul
 
 
