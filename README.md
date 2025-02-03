@@ -78,7 +78,7 @@ Além disso, o código utiliza os recursos do SDK Pico (incluindo funções de t
 
 Para demonstrar o funcionamento do projeto na BitDogLab, será produzido um vídeo com a seguinte indicação:
 
-**(ESPAÇO PARA LINK)**
+(https://drive.google.com/file/d/1A17gFJXgsOu8eJUOzQ8deNSEOH3qmuA5/view?usp=drivesdk)
 
 ---
 
